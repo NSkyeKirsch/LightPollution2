@@ -8,11 +8,33 @@ p {
 }
 
 #title {
-  font-size: 36px;
+  font-family: pauline-script,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: yellow;
 }
 
+#distance {
+  margin-top: 170px;
+}
+
+#distanceTwo {
+  margin-top: 250px;
+}
+
+#whatTitle {
+  font-size: 30px;
+  padding-right: 25px;
+}
+
+#explanationWhat {
+  font-size: 24px;
+}
+
+
 body {
-  background-image: url(pageBGv10.png);
+  background-image: url(pageBGvWhatever.png);
 }
 
 .page {
@@ -21,20 +43,17 @@ body {
 }
 
 .side {
-  background-color: #ddd;
+  /*background-color: #ddd;*/
   width: 150px;
   height: 200vh;
-  padding: 10px;
+  padding-top: 0px;
+  padding-left: 10px;
 }
 
 .header {
   display: flex;
-  width: 500px;
   justify-content: center;
-  margin-left: 65vh;
-  margin-right: 65vh;
-  margin-top: 10px;
-  background-color: green;
+  background-color: #2a4239#;
 }
 
 .page > .columnContent {
@@ -93,7 +112,7 @@ body {
 }
 
 .page > .empty {
-  background-color: #ddd;
+  /*background-color: #ddd;*/
   width: 150px;
   height: 200vh;
   padding: 10px;
